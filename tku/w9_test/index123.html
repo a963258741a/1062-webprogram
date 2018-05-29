@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>網頁程式設計期中模擬考</title>
+ <script>
+        function gopage(index){
+            var p = document.getElementById("content");
+            switch (index){
+                case 1:
+                    break;
+                    
+                case 2:
+                    p.innerHTML = '<iframe width="800" height="695" src="div demo.html" frameBorder="0"></iframe>';
+                    break;
+                    
+                case 3:
+                    p.innerHTML = '<iframe width="800" height="505" src="淡江大戲.html" frameBorder="0"></iframe>';
+                    break;
+                   
+                case 4:
+                    p.innerHTML = '<iframe width="800" height="620" src="課表.html" frameBorder="0"></iframe>';
+                    break;
+                 
+                     
+            }
+            
+        }
+    </script>    
+</head>
+<body>
+<div id="container">
+    <header>
+
+		<h1 id="text2">網頁程式設計期中模擬考</h1>    
+    </header>
+    <aside>
+      <nav>
+		<ul>
+			<li><a href="index.htm">最新消息</a></li>
+			<li><a onclick="gopage(2)">Div demo</a></li>
+			<li><a onclick="gopage(3)">淡江大戲</a></li>
+			<li><a onclick="gopage(4)">我的課表</a></li>	
+		</ul>        
+      </nav>    
+    </aside>
+            <article id=content>
+         <section class="consection">
+			<fieldset>
+
+		   </fieldset>			
+         </section>
+
+    </article>
+		   	
+           
+         
+    <footer>歡迎光臨我的網站!!</footer>
+</div>
+</body>
+</html>

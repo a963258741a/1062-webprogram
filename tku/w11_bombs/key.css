@@ -1,0 +1,13 @@
+body{
+    height: 160px;
+    border: 10px solid red;
+    width: 350px;
+    text-align: center;
+}
+input{
+    margin: 10px;
+}
+#bombs img{
+    width:25px;
+    margin: 5px 3px;
+}
