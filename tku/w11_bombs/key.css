@@ -1,7 +1,7 @@
-body{
-    height: 160px;
-    border: 10px solid red;
-    width: 350px;
+#abc{
+    height: 200px;
+    border: 9px solid red;
+    width: 360px;
     text-align: center;
 }
 input{

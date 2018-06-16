@@ -1,5 +1,5 @@
  #container {
-            width: 930px;
+            width: 940px;
             height: 480px;
             background-color: blue;
             border: 3px solid black;
@@ -26,7 +26,7 @@
         
         .tkuitem {
             background-color: #c6b9aa;
-            margin: 3px;
+            margin: 20px;
         }
 
 .tkuitem img:hover{
